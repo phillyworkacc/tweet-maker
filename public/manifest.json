@@ -1,0 +1,21 @@
+{
+  "name": "Tweet Maker",
+  "short_name": "Tweet Maker",
+  "description": "An app to make custom quotes or anything in the form of tweets to share on social media",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+    "src": "/logo.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["productivity"]
+}
+ 
