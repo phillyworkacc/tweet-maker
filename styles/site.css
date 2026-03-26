@@ -1,0 +1,42 @@
+.tweet-maker-app {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   position: relative;
+}
+
+.tweet-maker-app .app-container {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.tweet-maker-app .save-btn-app {
+   width: 100vw;
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   z-index: 5;
+   padding: 5px 10px;
+}
+
+.tweet-maker-app .save-btn-app > button.save {
+   background-color: #1231ff;
+   border-radius: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 8px;
+   color: white;
+   outline: none;
+   cursor: pointer;
+}

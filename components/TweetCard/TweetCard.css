@@ -1,0 +1,32 @@
+.tweet-card {
+   width: 100%;
+   max-width: 600px;
+   height: fit-content;
+   min-height: 30vh;
+   max-height: 90vh;
+   padding: 20px;
+   border: 1px solid #efefef;
+   border-radius: 20px;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.034);
+   position: relative;
+}
+
+.tweet-card .icon-trademark {
+   position: absolute;
+   top: 5px;
+   right: 5px;
+   z-index: 2;
+}
+
+.tweet-card .tweet-text-editor {
+   width: 100%;
+   height: fit-content;
+   outline: none;
+   font-size: 1.4rem;
+   line-height: 2rem;
+   color: black;
+}
+
+.tweet-card .tweet-text-editor:focus {
+   outline: 1px solid #ccc;
+}
