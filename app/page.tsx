@@ -55,7 +55,7 @@ export default function page () {
 				<div className="box full dfb align-center justify-center pd-1">
 					<div className="text-xxxs bold-700 fit dfb align-center gap-10">
 						<div className="box fit h-fit">
-							CREATED WITH tweet-maker.vercel.app
+							CREATED WITH tweet-maker-jade.vercel.app
 						</div>
 					</div>
 				</div>
