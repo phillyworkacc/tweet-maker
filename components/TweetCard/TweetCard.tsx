@@ -79,14 +79,14 @@ export default function TweetCard () {
          </div>
          <div className="box full dfb align-center gap-10 mb-2 cursor-pointer" onClick={openNameSettingsModal}>
             <div className="box fit">
-               <CustomIcon url={UserDefaultImage.src} size={45} round />
+               <CustomIcon url={UserDefaultImage.src} size={40} round />
             </div>
             <div className="box full dfb column">
-               <div className="text-sm bold-600 fit">{name}</div>
-               <div className="text-xxs grey-5 full">@{username}</div>
+               <div className="text-s bold-600 fit">{name}</div>
+               <div className="text-xxxs grey-5 full">@{username}</div>
             </div>
          </div>
-         <div className="box full h-fit mb-05">
+         <div className="box full h-fit mb-1">
             <div 
                ref={tweetBody} 
                className="tweet-text-editor" 

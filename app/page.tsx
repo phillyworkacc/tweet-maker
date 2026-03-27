@@ -12,12 +12,12 @@ export default function page () {
 	
 			// Step 1: render the element at higher scale
 			const canvas = await html2canvas(element, {
-				scale: 2, // increases resolution
+				scale: 3, // increases resolution
 				useCORS: true,
 				backgroundColor: "#fff"
 			});
 	
-			const padding = 40;
+			const padding = 80;
 	
 			// Step 2: create a new canvas with padding
 			const paddedCanvas = document.createElement("canvas");
@@ -52,13 +52,6 @@ export default function page () {
 			</div>
 			<div className="app-container" id="tweet-app-container">
 				<TweetCard />
-				<div className="box full dfb align-center justify-center pd-1">
-					<div className="text-xxxs bold-700 fit dfb align-center gap-10">
-						<div className="box fit h-fit">
-							CREATED WITH tweet-maker-jade.vercel.app
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	)
